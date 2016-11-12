@@ -1,0 +1,109 @@
+*{
+    margin: 0;padding: 0;
+}
+html,body{
+    font-size: 16px;
+    font-family: cursive;
+}
+.icon {
+    width: 1.5em; height: 1.5em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    padding: 3px;
+    margin-right: 10px;
+    color: #000;
+    background-color: #FAE632;
+}
+.container{
+    position: relative;
+    border: 20px solid #FAE632;
+}
+aside.left{
+    width: 400px;
+    height: 850px;
+    float:left;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+aside.left section{
+    margin-bottom: 25px;
+}
+aside.left section header{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+aside.left .image{
+    display: flex;
+    justify-content: center;
+}
+aside.left img{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    border: 2px solid #FAE632;
+}
+aside.left div.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+aside.left div.skill ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+}
+aside.left div.skill li{
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    background-color: #FAE632;
+}
+aside.left ol{
+    margin-left: 13px;
+}
+aside.right{
+    height: 850px;
+    padding: 20px;
+    margin-left: 440px;
+    background-color: #fff;
+}
+aside.right header{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+aside.right section{
+    margin-bottom: 20px;
+}
+aside.right .head{
+    text-align: center;
+}
+aside.right .name{
+    font-size: 24px;
+    justify-content: center;
+}
+
+aside.right article .header2{
+    display: flex;
+    justify-content: space-between;
+}
+aside.right article .header2 span{
+    display: flex;
+    align-items: center;
+}
+aside.right article .header2 .icon{
+    background-color: #fff;
+}
+aside.right .word{
+    word-break: break-all;
+}
+aside.right:last-child article{
+    margin-bottom: 10px;
+}
